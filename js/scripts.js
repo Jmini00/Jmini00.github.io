@@ -27,7 +27,7 @@
     // Scroll reveal
     ScrollReveal({
         // reset: true,
-        distance: '200px',
+        distance: '60px',
         duration: 2500,
         delay: 500
     });
@@ -48,13 +48,18 @@
     });
 
     // Animation logo
-const picture = document.querySelector(".masthead-avatar");
-setInterval(() => {
-    picture.classList.toggle('zoomOut');
-}, 4000);
-setInterval(() => {
-    picture.classList.toggle('zoomIn');
-}, 8000);
+    const picture = document.querySelector(".masthead-avatar");
+    let isZoomedOut = false; 
+    setInterval(() => {
+        if (isZoomedOut) {
+            picture.classList.remove('zoomOut');
+            picture.classList.add('zoomIn');
+        } else {
+            picture.classList.remove('zoomIn');
+            picture.classList.add('zoomOut');
+        }
+        isZoomedOut = !isZoomedOut; 
+    }, 4000);
 
     // Modal à l'ouverture
     const myModal = new bootstrap.Modal(document.getElementById('mentionsLegales'), {
