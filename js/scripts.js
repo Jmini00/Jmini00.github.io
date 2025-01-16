@@ -19,7 +19,7 @@
     // Scroll reveal
     ScrollReveal({
         // reset: true,
-        distance: '60px',
+        distance: '50px',
         duration: 2500,
         delay: 500
     });
@@ -32,8 +32,8 @@
 
     // Effet type
     const typed = new Typed('.multiple-text', {
-        strings: ['curieux', 'passionné', "jeune diplômé quarantenaire", "en quête d'un nouveau challenge", 'Développeur Web Full Stack junior'],
-        typeSpeed: 100,
+        strings: ['curieux', 'passionné', "jeune diplômé quarantenaire", "en quête d'un nouveau challenge", 'Développeur Web Full Stack'],
+        typeSpeed: 90,
         backSpeed: 50,
         backDelay: 1000,
         loop: true
