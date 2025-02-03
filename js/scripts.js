@@ -11,15 +11,15 @@
             title: "Mon CV ?...",
             html: `Souhaitez-vous y jeter un oeil ?? <br> Faites le bon choix 😃`,
             showCancelButton: true,
-            confirmButtonText: `<a class="btn" href="CVmaj.pdf" download="CVmaj.pdf"><i class="fa fa-thumbs-up"></i> Ok </a>`,
-            cancelButtonText: `<a class="btn" href="CVPro.pdf" download="CVPro.pdf"><i class="fa fa-thumbs-down"></i></a>`,
+            confirmButtonText: `<a class="btn" href="CVProDevJerome.pdf" download="CVProDevJerome.pdf"><i class="fa fa-thumbs-up"></i> Ok </a>`,
+            cancelButtonText: `<a class="btn" href="CVMaj.pdf" download="CVMaj.pdf"><i class="fa fa-thumbs-down"></i></a>`,
         });
     }
 
     // Scroll reveal
     ScrollReveal({
         // reset: true,
-        distance: '50px',
+        distance: '40px',
         duration: 2500,
         delay: 500
     });
