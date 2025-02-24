@@ -12,7 +12,7 @@
             html: `Souhaitez-vous y jeter un oeil ?? <br> Faites le bon choix 😃`,
             showCancelButton: true,
             confirmButtonText: `<a class="btn" href="CVProDevJerome.pdf" download="CVProDevJerome.pdf"><i class="fa fa-thumbs-up"></i> Ok </a>`,
-            cancelButtonText: `<a class="btn" href="CVMaj.pdf" download="CVMaj.pdf"><i class="fa fa-thumbs-down"></i></a>`,
+            cancelButtonText: `<i class="btn fa fa-thumbs-down"></i>`,
         });
     }
 
